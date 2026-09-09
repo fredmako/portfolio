@@ -26,7 +26,7 @@ export const projects: Project[] = [
     category: "Healthcare",
     technologies: ["React", "TypeScript", "Supabase", "PostgreSQL", "Tailwind CSS"],
     url: "https://egesamedicalclinic.com",
-    screenshots: ["/projects/egesa/dashboard.webp", "/projects/egesa/patients.webp", "/projects/egesa/reports.webp"],
+    screenshots: ["/projects/egesa/homepage.png"],
     features: [
       "Patient registration and management",
       "Appointment scheduling",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     category: "Business System",
     technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind CSS"],
     url: "https://grapts.vercel.app",
-    screenshots: ["/projects/grapts/dashboard.webp", "/projects/grapts/projects.webp", "/projects/grapts/reports.webp"],
+    screenshots: ["/projects/grapts/homepage.png"],
     features: [
       "Project tracking and management",
       "Task assignment and monitoring",
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     category: "Platform/SaaS",
     technologies: ["Next.js", "React", "TypeScript", "Supabase", "Node.js", "AI Integration"],
     url: "https://omnisocial.top",
-    screenshots: ["/projects/omnisocial/homepage.webp", "/projects/omnisocial/dashboard.webp", "/projects/omnisocial/content-studio.webp"],
+    screenshots: ["/projects/omnisocial/homepage.png"],
     features: [
       "Content creation and scheduling",
       "Multi-platform publishing",
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     category: "Tech Company",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
     url: "https://eagletechsolutions.tech",
-    screenshots: ["/projects/eagletech/homepage.webp", "/projects/eagletech/services.webp", "/projects/eagletech/portfolio.webp"],
+    screenshots: ["/projects/eagletech/homepage.png"],
     features: [
       "Service showcase",
       "Portfolio display",
@@ -128,7 +128,7 @@ export const projects: Project[] = [
     category: "Creative Platform",
     technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS"],
     url: "https://murekefumusichub.studio",
-    screenshots: ["/projects/mureke/homepage.webp", "/projects/mureke/artists.webp", "/projects/mureke/services.webp"],
+    screenshots: ["/projects/mureke/homepage.png"],
     features: [
       "Artist profiles",
       "Music portfolio",
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     category: "Education Platform",
     technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Firebase"],
     url: "https://magnitudemusicschool.top",
-    screenshots: ["/projects/magnitude/homepage.webp", "/projects/magnitude/courses.webp", "/projects/magnitude/dashboard.webp"],
+    screenshots: ["/projects/magnitude/homepage.png"],
     features: [
       "Course catalog",
       "Student enrollment",
@@ -178,7 +178,7 @@ export const projects: Project[] = [
     category: "Non-profit",
     technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Payment Integration"],
     url: "https://m-foundation.co.ke",
-    screenshots: ["/projects/mfoundation/homepage.webp", "/projects/mfoundation/programs.webp", "/projects/mfoundation/donate.webp"],
+    screenshots: ["/projects/mfoundation/homepage.png"],
     features: [
       "Donation processing",
       "Program management",

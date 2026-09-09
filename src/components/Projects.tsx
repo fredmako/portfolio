@@ -52,9 +52,13 @@ export default function Projects({ projects, categories }: ProjectsProps) {
           {filteredProjects.map((project) => (
             <div key={project.slug} className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 transition-all hover:shadow-lg">
               <div className="aspect-video bg-secondary relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-4xl font-bold text-muted-foreground/30">{project.name.charAt(0)}</span>
-                </div>
+                {project.screenshots[0] ? (
+                  <img src={project.screenshots[0]} alt={`${project.name} screenshot`} className="w-full h-full object-cover" />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-4xl font-bold text-muted-foreground/30">{project.name.charAt(0)}</span>
+                  </div>
+                )}
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-2">
