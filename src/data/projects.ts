@@ -20,6 +20,54 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: "VirtualChoir Studio",
+    slug: "virtualchoir",
+    description: "A virtual choir platform for managing choir members, rehearsals, and performances.",
+    category: "Creative Platform",
+    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind CSS"],
+    url: "https://virtualchoir-b5uyw61oe-fredricks-projects-f2f0a824.vercel.app",
+    screenshots: ["/projects/virtualchoir/homepage.png"],
+    features: [
+      "Choir member management",
+      "Rehearsal scheduling",
+      "Performance tracking",
+      "Music library",
+      "Attendance management"
+    ],
+    caseStudy: {
+      overview: "VirtualChoir Studio is a comprehensive platform for managing virtual choir operations.",
+      problem: "Choir directors needed a digital solution to manage members, schedule rehearsals, and track performance progress.",
+      solution: "Built a full-featured platform with member management, rehearsal scheduling, and performance analytics.",
+      technicalImplementation: "React with TypeScript, Node.js backend, PostgreSQL database, and Tailwind CSS for responsive UI.",
+      challenges: "Coordinating virtual rehearsals across different time zones. Implemented scheduling tools and notifications.",
+      uiUx: "Clean, intuitive interface designed for choir directors and members to collaborate effectively."
+    }
+  },
+  {
+    name: "Club Welfare Management",
+    slug: "club-welfare-management",
+    description: "A welfare management system for clubs to manage member welfare, events, and resources.",
+    category: "Business System",
+    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind CSS"],
+    url: "https://club-welfare-management-7yr8c4m81-fredricks-projects-f2f0a824.vercel.app",
+    screenshots: ["/projects/club-welfare-management/homepage.png"],
+    features: [
+      "Member welfare tracking",
+      "Event management",
+      "Resource allocation",
+      "Financial reporting",
+      "Communication tools"
+    ],
+    caseStudy: {
+      overview: "Club Welfare Management is a comprehensive system for managing club member welfare and operations.",
+      problem: "Clubs needed a centralized platform to manage member welfare, events, and resources efficiently.",
+      solution: "Developed a full-featured management system with welfare tracking, event planning, and financial reporting.",
+      technicalImplementation: "React with TypeScript, Node.js backend, PostgreSQL database, and Tailwind CSS for responsive UI.",
+      challenges: "Managing diverse welfare needs across different member groups. Implemented flexible tracking and reporting.",
+      uiUx: "Professional, data-dense interface optimized for club administrators to manage operations effectively."
+    }
+  },
+  {
     name: "Egesa Medical Clinic",
     slug: "egesamedicalclinic",
     description: "A comprehensive healthcare management system for patient management, consultations, laboratory, pharmacy, and reporting.",
@@ -198,4 +246,4 @@ export const projects: Project[] = [
   }
 ];
 
-export const categories = ["All", "Healthcare", "Business System", "Platform/SaaS", "Tech Company", "Creative Platform", "Education Platform", "Non-profit"];
+export const categories = ["All", "Creative Platform", "Business System", "Healthcare", "Platform/SaaS", "Tech Company", "Education Platform", "Non-profit"];
