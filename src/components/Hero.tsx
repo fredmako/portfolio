@@ -30,6 +30,13 @@ export default function Hero() {
       className="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-4xl mx-auto text-center">
+        <div className="mb-8">
+          <img
+            src="/profile.jpg"
+            alt="Fredrick Makori Omwando"
+            className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-primary/20 shadow-lg mx-auto"
+          />
+        </div>
         <p className="text-sm font-medium text-primary mb-4 tracking-wide uppercase">
           Software Engineer
         </p>
